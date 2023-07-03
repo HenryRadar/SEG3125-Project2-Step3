@@ -1,6 +1,6 @@
 import MainNavbar from "./components/MainNavbar/MainNavbar";
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Pages/Home";
 import Shop from "./components/Pages/Shop";
 import ProductDetails from "./components/Pages/ProductDetails";
@@ -11,7 +11,7 @@ import CreateGuide from "./components/Pages/CreateGuide";
 
 function App() {
   return (
-    <BrowserRouter basename="/">
+    <HashRouter>
       <div>
         <MainNavbar />
 
@@ -25,7 +25,7 @@ function App() {
           <Route path="/guides/create" element={<CreateGuide />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
