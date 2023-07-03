@@ -16,13 +16,28 @@ function App() {
         <MainNavbar />
 
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/shop/:section" element={<Shop />} />
-          <Route path="/shop/details/:id" element={<ProductDetails />} />
-          <Route path="/shop/details/review/:id" element={<CreateReview />} />
-          <Route path="/guides" element={<Guides />} />
-          <Route path="/guides/guide/:id" element={<Guide />} />
-          <Route path="/guides/create" element={<CreateGuide />} />
+          <Route path="/SEG3125-Project2-Step3/" element={<Home />} />
+          <Route
+            path="/SEG3125-Project2-Step3/shop/:section"
+            element={<Shop />}
+          />
+          <Route
+            path="/SEG3125-Project2-Step3/shop/details/:id"
+            element={<ProductDetails />}
+          />
+          <Route
+            path="/SEG3125-Project2-Step3/shop/details/review/:id"
+            element={<CreateReview />}
+          />
+          <Route path="/SEG3125-Project2-Step3/guides" element={<Guides />} />
+          <Route
+            path="/SEG3125-Project2-Step3/guides/guide/:id"
+            element={<Guide />}
+          />
+          <Route
+            path="/SEG3125-Project2-Step3/guides/create"
+            element={<CreateGuide />}
+          />
         </Routes>
       </div>
     </HashRouter>
