@@ -11,7 +11,7 @@ import CreateGuide from "./components/Pages/CreateGuide";
 
 function App() {
   return (
-    <HashRouter basename="/SEG3125-Project2-Step3">
+    <HashRouter>
       <div>
         <MainNavbar />
 
