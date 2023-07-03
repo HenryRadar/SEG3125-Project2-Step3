@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/HenryRadar/SEG3125-Project2-Step3/static/css/main.f57d1a61.css",
-    "main.js": "/HenryRadar/SEG3125-Project2-Step3/static/js/main.88fd11f6.js",
-    "static/js/787.3ba231df.chunk.js": "/HenryRadar/SEG3125-Project2-Step3/static/js/787.3ba231df.chunk.js",
-    "static/media/computerImage.webp": "/HenryRadar/SEG3125-Project2-Step3/static/media/computerImage.456e4abec3661282d3c6.webp",
-    "static/media/logo.png": "/HenryRadar/SEG3125-Project2-Step3/static/media/logo.9262179efab2cb3042dc.png",
-    "static/media/guideImage.jpeg": "/HenryRadar/SEG3125-Project2-Step3/static/media/guideImage.2e6772461998c6fd4dc5.jpeg",
-    "static/media/intelProcessor.webp": "/HenryRadar/SEG3125-Project2-Step3/static/media/intelProcessor.4d046e84ea0856b0ed98.webp",
-    "static/media/cart.svg": "/HenryRadar/SEG3125-Project2-Step3/static/media/cart.de9fc04ad44b3b919d59b4a18550e470.svg",
-    "index.html": "/HenryRadar/SEG3125-Project2-Step3/index.html",
-    "main.f57d1a61.css.map": "/HenryRadar/SEG3125-Project2-Step3/static/css/main.f57d1a61.css.map",
-    "main.88fd11f6.js.map": "/HenryRadar/SEG3125-Project2-Step3/static/js/main.88fd11f6.js.map",
-    "787.3ba231df.chunk.js.map": "/HenryRadar/SEG3125-Project2-Step3/static/js/787.3ba231df.chunk.js.map"
+    "main.css": "/SEG3125-Project2-Step3/static/css/main.f57d1a61.css",
+    "main.js": "/SEG3125-Project2-Step3/static/js/main.883cc0e9.js",
+    "static/js/787.3ba231df.chunk.js": "/SEG3125-Project2-Step3/static/js/787.3ba231df.chunk.js",
+    "static/media/computerImage.webp": "/SEG3125-Project2-Step3/static/media/computerImage.456e4abec3661282d3c6.webp",
+    "static/media/logo.png": "/SEG3125-Project2-Step3/static/media/logo.9262179efab2cb3042dc.png",
+    "static/media/guideImage.jpeg": "/SEG3125-Project2-Step3/static/media/guideImage.2e6772461998c6fd4dc5.jpeg",
+    "static/media/intelProcessor.webp": "/SEG3125-Project2-Step3/static/media/intelProcessor.4d046e84ea0856b0ed98.webp",
+    "static/media/cart.svg": "/SEG3125-Project2-Step3/static/media/cart.de9fc04ad44b3b919d59b4a18550e470.svg",
+    "index.html": "/SEG3125-Project2-Step3/index.html",
+    "main.f57d1a61.css.map": "/SEG3125-Project2-Step3/static/css/main.f57d1a61.css.map",
+    "main.883cc0e9.js.map": "/SEG3125-Project2-Step3/static/js/main.883cc0e9.js.map",
+    "787.3ba231df.chunk.js.map": "/SEG3125-Project2-Step3/static/js/787.3ba231df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f57d1a61.css",
-    "static/js/main.88fd11f6.js"
+    "static/js/main.883cc0e9.js"
   ]
 }
