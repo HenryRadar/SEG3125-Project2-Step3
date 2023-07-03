@@ -45,26 +45,28 @@ const Shop = (props) => {
           <h5>Computer Parts</h5>
           <ul>
             <li>
-              <a href="/shop/cpu">CPU</a>
+              <a href="/SEG3125-Project2-Step3/shop/cpu">CPU</a>
             </li>
             <li>
-              <a href="/shop/motherboard">Motherboard</a>
+              <a href="/SEG3125-Project2-Step3/shop/motherboard">Motherboard</a>
             </li>
             <li>
-              <a href="/shop/powersupply">Power Supply</a>
+              <a href="/SEG3125-Project2-Step3/shop/powersupply">
+                Power Supply
+              </a>
             </li>
             <li>
-              <a href="/shop/memory">Memory</a>
+              <a href="/SEG3125-Project2-Step3/shop/memory">Memory</a>
             </li>
           </ul>
           <br />
           <h5>PC Cooling</h5>
           <ul>
             <li>
-              <a href="/shop/fans">Fans</a>
+              <a href="/SEG3125-Project2-Step3/shop/fans">Fans</a>
             </li>
             <li>
-              <a href="/shop/cooling">Liquid Cooling</a>
+              <a href="/SEG3125-Project2-Step3/shop/cooling">Liquid Cooling</a>
             </li>
           </ul>
         </Container>

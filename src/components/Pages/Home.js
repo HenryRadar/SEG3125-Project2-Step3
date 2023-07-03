@@ -10,10 +10,16 @@ const Home = () => {
         <div className="textbox d-flex">
           <div className="p-4 flex-fill">
             <h2>Your PC, Your Parts</h2>
-            <CustomButton title="Shop" href="/shop/home" />
+            <CustomButton
+              title="Shop"
+              href="/SEG3125-Project2-Step3/shop/home"
+            />
             <div className="margin"></div>
             <h2>First PC?</h2>
-            <CustomButton title="Guides" href="/guides" />
+            <CustomButton
+              title="Guides"
+              href="/SEG3125-Project2-Step3/guides"
+            />
           </div>
 
           <img
