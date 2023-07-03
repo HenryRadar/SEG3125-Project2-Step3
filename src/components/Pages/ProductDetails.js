@@ -84,7 +84,7 @@ const ProductDetails = (props) => {
             <div className="flex-item py-2">
               <CustomButton
                 title="Leave a Review"
-                href={"#/review/" + product.id}
+                href={"#/shop/details/review/" + product.id}
               />
             </div>
 
