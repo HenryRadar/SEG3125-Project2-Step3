@@ -12,13 +12,13 @@ const Home = () => {
             <h2>Your PC, Your Parts</h2>
             <CustomButton
               title="Shop"
-              href="/SEG3125-Project2-Step3/shop/home"
+              href="/SEG3125-Project2-Step3/#/shop/home"
             />
             <div className="margin"></div>
             <h2>First PC?</h2>
             <CustomButton
               title="Guides"
-              href="/SEG3125-Project2-Step3/guides"
+              href="/SEG3125-Project2-Step3/#/guides"
             />
           </div>
 

@@ -26,7 +26,7 @@ const MainNavbar = () => {
 
           <Nav className="d-flex justify-content-end">
             <Nav.Link
-              href="/SEG3125-Project2-Step3/guides"
+              href="/SEG3125-Project2-Step3/#/guides"
               className="align-center"
             >
               <u>Guides</u>
@@ -50,24 +50,24 @@ const MainNavbar = () => {
         <Container>
           <NavDropdown title="Shop" id="shop-dropdown">
             <div className="header">Computer Parts</div>
-            <NavDropdown.Item href="/SEG3125-Project2-Step3/shop/cpu">
+            <NavDropdown.Item href="/SEG3125-Project2-Step3/#/shop/cpu">
               CPU
             </NavDropdown.Item>
-            <NavDropdown.Item href="/SEG3125-Project2-Step3/shop/motherboard">
+            <NavDropdown.Item href="/SEG3125-Project2-Step3/#/shop/motherboard">
               Motherboard
             </NavDropdown.Item>
-            <NavDropdown.Item href="/SEG3125-Project2-Step3/shop/powersupply">
+            <NavDropdown.Item href="/SEG3125-Project2-Step3/#/shop/powersupply">
               Power Supply
             </NavDropdown.Item>
-            <NavDropdown.Item href="/SEG3125-Project2-Step3/shop/memory">
+            <NavDropdown.Item href="/SEG3125-Project2-Step3/#/shop/memory">
               Memory
             </NavDropdown.Item>
             <NavDropdown.Divider />
             <div className="header">PC Cooling</div>
-            <NavDropdown.Item href="/SEG3125-Project2-Step3/shop/fans">
+            <NavDropdown.Item href="/SEG3125-Project2-Step3/#/shop/fans">
               Fans
             </NavDropdown.Item>
-            <NavDropdown.Item href="/SEG3125-Project2-Step3/shop/cooling">
+            <NavDropdown.Item href="/SEG3125-Project2-Step3/#/shop/cooling">
               Liquid Cooling
             </NavDropdown.Item>
           </NavDropdown>

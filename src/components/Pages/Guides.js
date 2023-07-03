@@ -20,7 +20,7 @@ const Guides = (props) => {
   };
 
   const getUrl = (id) => {
-    return "/SEG3125-Project2-Step3/guides/guide/" + id;
+    return "/SEG3125-Project2-Step3/#/guides/guide/" + id;
   };
 
   return (
@@ -36,7 +36,7 @@ const Guides = (props) => {
           <div className="py-2 px-2 justify-content-center">
             <CustomButton
               title="Create a Guide"
-              href="/SEG3125-Project2-Step3/guides/create"
+              href="/SEG3125-Project2-Step3/#/guides/create"
             />
           </div>
         </div>

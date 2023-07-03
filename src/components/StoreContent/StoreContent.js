@@ -10,7 +10,7 @@ const StoreContent = (props) => {
   const resultNumber = productData.length;
 
   const getUrl = (id) => {
-    return "/SEG3125-Project2-Step3/shop/details/" + id;
+    return "/SEG3125-Project2-Step3/#/shop/details/" + id;
   };
 
   return (
