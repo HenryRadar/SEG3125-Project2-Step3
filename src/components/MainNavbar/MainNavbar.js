@@ -12,7 +12,7 @@ const MainNavbar = () => {
       <Navbar expand="lg" className="navbar">
         <Container>
           <Nav className="d-flex justify-content-start">
-            <Navbar.Brand href="/#">
+            <Navbar.Brand href="/SEG3125-Project2-Step3/#">
               <img
                 src={logo}
                 width="80"
@@ -25,7 +25,10 @@ const MainNavbar = () => {
           </Nav>
 
           <Nav className="d-flex justify-content-end">
-            <Nav.Link href="/guides" className="align-center">
+            <Nav.Link
+              href="/SEG3125-Project2-Step3/guides"
+              className="align-center"
+            >
               <u>Guides</u>
             </Nav.Link>
             <Nav.Link href="">
@@ -47,18 +50,24 @@ const MainNavbar = () => {
         <Container>
           <NavDropdown title="Shop" id="shop-dropdown">
             <div className="header">Computer Parts</div>
-            <NavDropdown.Item href="/shop/cpu">CPU</NavDropdown.Item>
-            <NavDropdown.Item href="/shop/motherboard">
+            <NavDropdown.Item href="/SEG3125-Project2-Step3/shop/cpu">
+              CPU
+            </NavDropdown.Item>
+            <NavDropdown.Item href="/SEG3125-Project2-Step3/shop/motherboard">
               Motherboard
             </NavDropdown.Item>
-            <NavDropdown.Item href="/shop/powersupply">
+            <NavDropdown.Item href="/SEG3125-Project2-Step3/shop/powersupply">
               Power Supply
             </NavDropdown.Item>
-            <NavDropdown.Item href="/shop/memory">Memory</NavDropdown.Item>
+            <NavDropdown.Item href="/SEG3125-Project2-Step3/shop/memory">
+              Memory
+            </NavDropdown.Item>
             <NavDropdown.Divider />
             <div className="header">PC Cooling</div>
-            <NavDropdown.Item href="/shop/fans">Fans</NavDropdown.Item>
-            <NavDropdown.Item href="/shop/cooling">
+            <NavDropdown.Item href="/SEG3125-Project2-Step3/shop/fans">
+              Fans
+            </NavDropdown.Item>
+            <NavDropdown.Item href="/SEG3125-Project2-Step3/shop/cooling">
               Liquid Cooling
             </NavDropdown.Item>
           </NavDropdown>
