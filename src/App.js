@@ -1,6 +1,6 @@
 import MainNavbar from "./components/MainNavbar/MainNavbar";
 import "./App.css";
-import { HashRouter, BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./components/Pages/Home";
 import Shop from "./components/Pages/Shop";
 import ProductDetails from "./components/Pages/ProductDetails";
@@ -11,21 +11,19 @@ import CreateGuide from "./components/Pages/CreateGuide";
 
 function App() {
   return (
-    <HashRouter>
-      <div>
-        <MainNavbar />
+    <div>
+      <MainNavbar />
 
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/shop/:section" element={<Shop />} />
-          <Route path="/shop/details/:id" element={<ProductDetails />} />
-          <Route path="/shop/details/review/:id" element={<CreateReview />} />
-          <Route path="/guides" element={<Guides />} />
-          <Route path="/guides/guide/:id" element={<Guide />} />
-          <Route path="/guides/create" element={<CreateGuide />} />
-        </Routes>
-      </div>
-    </HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/shop/:section" element={<Shop />} />
+        <Route path="/shop/details/:id" element={<ProductDetails />} />
+        <Route path="/shop/details/review/:id" element={<CreateReview />} />
+        <Route path="/guides" element={<Guides />} />
+        <Route path="/guides/guide/:id" element={<Guide />} />
+        <Route path="/guides/create" element={<CreateGuide />} />
+      </Routes>
+    </div>
   );
 }
 
