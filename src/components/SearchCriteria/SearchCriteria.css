@@ -1,0 +1,9 @@
+.accordion-button {
+    background-color: #E7C685 !important;
+    border-radius: 1px !important;
+    box-shadow: none !important;
+    border-top-style: solid !important;
+    border-bottom-style: solid !important;
+    border-color: black !important;
+    border-width: 2px !important;
+}

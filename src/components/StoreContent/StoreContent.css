@@ -1,0 +1,16 @@
+.width-adjustment {
+    min-width: 20%;
+    margin-top: 40px;
+}
+
+
+.criteria-border {
+    border-color: black;
+    border-right-style: solid;
+    border-width: 2px;
+}
+
+hr {
+    text-align: top;
+
+}

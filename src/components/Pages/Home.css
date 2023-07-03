@@ -1,0 +1,16 @@
+.textbox {
+    background-color: #C2D6E8;
+    margin-top: 60px;
+    border-style: solid;
+    border-color: #788591;
+    border-width: 1px;
+    border-radius: 2px;
+}
+
+h2 {
+    font-size: 48px !important;
+}
+
+.margin {
+    margin-top: 20%;
+}

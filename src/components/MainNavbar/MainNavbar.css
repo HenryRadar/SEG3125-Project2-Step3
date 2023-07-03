@@ -1,0 +1,16 @@
+.navbar {
+    background-color: #98B1C7;
+}
+
+.navbar-lower {
+    background-color: #C2D6E8;
+}
+
+.nav-link {
+    align-self: center;
+}
+
+.header {
+    color: #00278A;
+    align-self: left;
+}

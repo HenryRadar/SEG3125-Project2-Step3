@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import MainNavbar from "./components/MainNavbar/MainNavbar";
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./components/Pages/Home";
+import Shop from "./components/Pages/Shop";
+import ProductDetails from "./components/Pages/ProductDetails";
+import CreateReview from "./components/Pages/CreateReview";
+import Guides from "./components/Pages/Guides";
+import Guide from "./components/Pages/Guide";
+import CreateGuide from "./components/Pages/CreateGuide";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter basename="/">
+      <div>
+        <MainNavbar />
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/shop/:section" element={<Shop />} />
+          <Route path="/shop/details/:id" element={<ProductDetails />} />
+          <Route path="/shop/details/review/:id" element={<CreateReview />} />
+          <Route path="/guides" element={<Guides />} />
+          <Route path="/guides/guide/:id" element={<Guide />} />
+          <Route path="/guides/create" element={<CreateGuide />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
