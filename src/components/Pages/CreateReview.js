@@ -37,14 +37,20 @@ const CreateReview = (props) => {
     let name = getSectionName(product.section);
 
     if (name == "") {
-      return [{ url: "/shop/home", name: name }];
+      return [{ url: "/SEG3125-Project2-Step3/#/shop/home", name: name }];
     }
 
-    let path = { url: "/shop/" + product.section, name: name };
+    let path = {
+      url: "/SEG3125-Project2-Step3/#/shop/" + product.section,
+      name: name,
+    };
     const paths = [
-      { url: "/shop/home", name: "Shop" },
+      { url: "/SEG3125-Project2-Step3/#/shop/home", name: "Shop" },
       path,
-      { url: "/shop/details/" + product.id, name: "Product Details" },
+      {
+        url: "/SEG3125-Project2-Step3/#/shop/details/" + product.id,
+        name: "Product Details",
+      },
       { url: "", name: "Review" },
     ];
 

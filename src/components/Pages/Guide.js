@@ -19,7 +19,7 @@ const Guide = (props) => {
 
   const getPath = () => {
     const paths = [
-      { url: "/guides", name: "Guides" },
+      { url: "/SEG3125-Project2-Step3/#/guides", name: "Guides" },
       { url: "", name: "Guide" },
     ];
 

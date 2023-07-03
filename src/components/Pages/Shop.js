@@ -29,11 +29,17 @@ const Shop = (props) => {
     let name = getSectionName(params.section);
 
     if (name == "Shop") {
-      return [{ url: "/shop/home", name: name }];
+      return [{ url: "/SEG3125-Project2-Step3/#/shop/home", name: name }];
     }
 
-    let path = { url: "/shop/" + params.section, name: name };
-    const paths = [{ url: "/shop/home", name: "Shop" }, path];
+    let path = {
+      url: "/SEG3125-Project2-Step3/#/shop/" + params.section,
+      name: name,
+    };
+    const paths = [
+      { url: "/SEG3125-Project2-Step3/#/shop/home", name: "Shop" },
+      path,
+    ];
 
     return paths;
   };

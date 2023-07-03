@@ -7,7 +7,7 @@ import Breadcrumbs from "../Breadcrumbs/Breadcrumbs";
 const CreateGuide = () => {
   const getPath = () => {
     const paths = [
-      { url: "/guides", name: "Guides" },
+      { url: "/SEG3125-Project2-Step3/#/guides", name: "Guides" },
       { url: "", name: "Create Guide" },
     ];
 
